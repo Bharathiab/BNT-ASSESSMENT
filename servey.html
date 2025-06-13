@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            border-style: solid;
+            padding:30px;
+            margin: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Survey form</h1>
+    <form>
+        <label for ="name">Name:</label>
+        <input type="text" id="name" name="name">
+       <br><br>
+        <label for ="Age"> Age</label>
+        <input type="number" id="Age">
+       <br><br>
+        <div>
+        <label for ="gender">Gender</label>
+        <label for ="male">Male</label>
+        <input type="radio" id="male" name="name">
+        <label for ="female">Female</label>
+        <input type="radio" id="female" name="name">
+        </div>
+<br>
+        <div>
+            <label for="food">Favorite Food:</label>
+            <select>
+            <option>Pizza</option>
+            <option>Chinese</option>
+            <option>Indian</option>
+        </select>
+        </div>
+        <br>
+<div>
+        <label for="cook">Do you like to cook?</label>
+        <label for="yes">Yes</label>
+        <input type="checkbox" id="yes">
+        <label for="No">No</label>
+        <input type="checkbox" id="No">
+        </div>
+<br>
+        <label for="textarea">Comments</label>
+        <input type="textarea" id="textarea">
+<br><br>
+        <button>submit</button>
+       
+
+
+    </form>
+    
+</body>
+</html>

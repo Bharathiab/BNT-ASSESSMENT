@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box move</title>
+
+    <style>
+        .box{
+            border-style: solid;
+            max-width: fit-content;
+            background-color:pink;
+            padding:20px;
+            position: relative;
+            animation: moveRight 5s infinite;
+        }
+
+        @keyframes moveRight {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: 80%;
+            }
+            100% {
+                left: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>box1</h1>
+
+    </div>
+</body>
+</html>
